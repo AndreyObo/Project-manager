@@ -1,0 +1,9 @@
+async SetName(req, res) {
+        const {id, name} = req.body
+        await Projects.update({ProjectName:name}, {where:{Id:id}})
+    }
+    
+    async SetMainUser(req, res) {
+        const {id, user_id} = req.body
+        await Projects.update({MainUsersId:user_id}, {where:{Id:id}})
+    }

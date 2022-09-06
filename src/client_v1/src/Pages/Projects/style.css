@@ -1,0 +1,252 @@
+.MainWrap {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+
+.PTable {
+    flex: 8;  
+}
+
+.BStack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.BStack .projbutton {
+    margin-bottom: 10px;
+}
+
+.projaddbutton {
+    width:130px;
+    height: 30px;
+    background: #0050CC;
+    color: #e7e1e1;
+    font-weight: bold;
+    font-size: 16;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.projaddbutton:hover {
+    background: #2e6dcc;
+}
+
+.projaddbutton:active {
+    background: #1f56aa;
+}
+
+.projbutton {
+    width:130px;
+    height: 30px;
+    background: #F0F2F5;
+    color: #313335;
+    font-weight: bold;
+    font-size: 16;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.projbutton:hover {
+    background: #bebebe;
+}
+
+.projbutton:active {
+    background: #929292;
+}
+
+.ProjModalWindow {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width: 520px;
+    height: 520px;
+    padding-right: 5px;
+   /* top: calc(50% - 130px);*/
+  /*  left: calc(50% - 250px);*/
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+   overflow: scroll;
+   overflow-x: hidden;
+}
+
+.ChartModalWindow {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width: 1200px;
+    height: 520px;
+    padding-right: 5px;
+   /* top: calc(50% - 130px);*/
+  /*  left: calc(50% - 250px);*/
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+}
+
+.ChartWrap {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.BreakModalWindow {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width: 520px;
+    height: 300px;
+    padding-right: 5px;
+   /* top: calc(50% - 130px);*/
+  /*  left: calc(50% - 250px);*/
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+}
+
+.ProjModalWindow::-webkit-scrollbar {
+    width: 10px;
+}
+
+.ProjModalWindow::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.ProjModalWindow::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+.WGBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.WGBox *{
+    padding-bottom: 10px;
+}
+
+.WGBox .whitebutton {
+ margin-left: 10px;
+}
+
+.WGBox .whitebutton {
+    margin-left: 10px;
+}
+
+.WGBox .MySelect {
+    height: 80px;
+}
+   
+
+.UserSelecter {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+}
+
+.WGMySelect {
+    display: block; 
+font-size: 14px; 
+font-family: sans-serif; 
+color: #444; 
+line-height: 1.3; 
+width: 250px;
+height: 30px;
+max-width: 100%; 
+box-sizing: border-box; 
+border: 1px solid #aaa;
+border-radius: 5px;
+}
+
+.MyListBox {
+    display: block; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+}
+
+.MyListBox::-webkit-scrollbar {
+    width: 15px;
+}
+
+.MyListBox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.MyListBox::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+.PDelB {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.PointsWrap {
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 200px;
+    background: lightblue;
+}
+
+.BottomsStack {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+.buttoncontaner .projbutton {
+    margin-right: 8px;
+}
+
+.DescriptInput {
+    height: 100px;
+    width: 100%;
+    font-size: 16px; 
+    font-family: sans-serif; 
+    border-radius: 5px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    text-align:left;
+    resize:none;
+}
+
+.BottomPanel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 450px;
+}
+
+.BPLeft {
+    flex: 2;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.BPRight {
+    flex: 1;
+}
+.PointTableWrap {
+    height: 300px;
+}
+
+.StepTitle {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+
+.gridwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+/*.Page::-webkit-scrollbar {
+    width: 15px;
+}
+
+.Page::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.Page::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}*/
+
+
+.RTitle {
+    margin-right: 70px;
+    font-size: 16;
+    color: rgb(49, 49, 49);
+}
+
+.UAddModalWindow {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    width: 480px;
+    height: 260px;
+   /* top: calc(50% - 130px);*/
+  /*  left: calc(50% - 250px);*/
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+
+}

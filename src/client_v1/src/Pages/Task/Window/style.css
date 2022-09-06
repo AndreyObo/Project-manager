@@ -1,0 +1,15 @@
+.TaskAddModalWindow {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    width: 480px;
+    height: auto;
+    padding-bottom: 10px;
+   /* top: calc(50% - 130px);*/
+  /*  left: calc(50% - 250px);*/
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+
+}
+

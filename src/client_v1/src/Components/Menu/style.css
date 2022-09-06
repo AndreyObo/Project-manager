@@ -1,0 +1,36 @@
+.menucontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.switcher {
+    position: absolute;
+    z-index:1;
+    width: 20px;
+    top: 50px;
+    left: 0px;
+    background: gray;
+    height: 50px;
+}
+
+.mtitle {
+    font-weight: bold;
+    margin-left: 12px;
+    color: #4d5b74;
+}
+
+.item {
+    position: relative;
+    z-index:2;
+    
+    display: flex;
+    align-items:center;
+    padding-left: 15px;
+    justify-content:left;
+    height: 50px;
+    user-select: none;
+}
+.item:hover {
+    z-index: 0;
+    background:#9ac6ec;
+}
